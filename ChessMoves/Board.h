@@ -1,3 +1,6 @@
+// Edward Brecht
+// 11/22/2019
+
 #pragma once
 #include <array>
 #include "ChessPiece.h"

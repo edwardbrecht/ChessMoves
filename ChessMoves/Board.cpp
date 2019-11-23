@@ -1,3 +1,6 @@
+// Edward Brecht
+// 11/22/2019
+
 #include "Board.h"
 #include "WhiteKing.h"
 #include "BlackKing.h"
