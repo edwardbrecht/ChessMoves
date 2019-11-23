@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -115,6 +115,36 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BlackBishop.h" />
+    <ClInclude Include="BlackKing.h" />
+    <ClInclude Include="BlackKnight.h" />
+    <ClInclude Include="BlackPawn.h" />
+    <ClInclude Include="BlackQueen.h" />
+    <ClInclude Include="BlackRook.h" />
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="ChessPiece.h" />
+    <ClInclude Include="WhiteBishop.h" />
+    <ClInclude Include="WhiteKing.h" />
+    <ClInclude Include="WhiteKnight.h" />
+    <ClInclude Include="WhitePawn.h" />
+    <ClInclude Include="WhiteQueen.h" />
+    <ClInclude Include="WhiteRook.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BlackBishop.cpp" />
+    <ClCompile Include="BlackKing.cpp" />
+    <ClCompile Include="BlackKnight.cpp" />
+    <ClCompile Include="BlackPawn.cpp" />
+    <ClCompile Include="BlackQueen.cpp" />
+    <ClCompile Include="BlackRook.cpp" />
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="ChessPiece.cpp" />
+    <ClCompile Include="WhiteBishop.cpp" />
+    <ClCompile Include="WhiteKing.cpp" />
+    <ClCompile Include="WhiteKnight.cpp" />
+    <ClCompile Include="WhitePawn.cpp" />
+    <ClCompile Include="WhiteQueen.cpp" />
+    <ClCompile Include="WhiteRook.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
